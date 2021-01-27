@@ -33,9 +33,3 @@ $ mvn spring-boot:run
 
 Esto iniciara el backend en el puerto 8081.
 ````
-
-## PgAmdin
-````
-Abrir un "Query Tool" en pgadmin 4 y ejecutar la siguiente instrucción:
-
-CREATE EXTENSION postgis
