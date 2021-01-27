@@ -12,7 +12,7 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
 
 @Configuration
-public class DatabaseContext {
+public class DatabaseContextMongo {
     @Bean
     MongoDatabase database(){
         CodecRegistry defaultCodecRegistry = MongoClientSettings.getDefaultCodecRegistry();
