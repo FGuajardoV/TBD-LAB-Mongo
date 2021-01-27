@@ -1,4 +1,4 @@
-package voluntariado.demo.RepositoriesMongo;
+package voluntariado.demo.repositoriesMongo;
 
 import voluntariado.demo.Document.Task;
 

@@ -1,4 +1,4 @@
-package voluntariado.demo.modelsMongo;
+package voluntariado.demo.Document;
 
 import org.bson.types.ObjectId;
 import org.bson.codecs.pojo.annotations.BsonId;
