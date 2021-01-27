@@ -3,7 +3,9 @@ package voluntariado.demo.Document;
 import org.bson.types.ObjectId;
 import org.bson.codecs.pojo.annotations.BsonId;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "tareas")
 public class Task {
     @Id
     private ObjectId id;
